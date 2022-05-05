@@ -11,7 +11,8 @@ public class MegaAppTests extends BaseTest {
         MegaApp megaApp = new MegaApp(getDriver());
         megaApp.clickDocsCategory();
         megaApp.clickPlusBtn();
-        megaApp.createAndVerifyNewTxtFile("a.txt");
+        megaApp.createTxtFile("a.txt");
+        megaApp.verifyFileCreated("a.txt");
     }
 
     @Test

@@ -40,6 +40,9 @@ public class MegaApp extends BasePage {
     }
 
     //Actions
+    public void verifyUserIsInHomeScreen(){
+        waitForElementToAppear(docsCategory);
+    }
     public void clickDocsCategory(){
         waitForElementToAppear(docsCategory);
         click(docsCategory);
@@ -49,11 +52,13 @@ public class MegaApp extends BasePage {
         click(plusBtn);
     }
 
-    public void createAndVerifyNewTxtFile(String fileName){
+    public void createTxtFile(String fileName){
         click(newTxtFileBtn);
         writeText(txtFileName, fileName);
         click(createTxtFileBtn);
         click(saveTxtFileBtn);
+    }
+    public void verifyFileCreated(String fileName){
         verifyIfDocExists(fileName);
     }
 
