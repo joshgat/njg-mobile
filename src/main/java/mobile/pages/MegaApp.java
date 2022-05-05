@@ -11,12 +11,13 @@ public class MegaApp extends BasePage {
         super(driver);
     }
     By docsCategory = By.xpath("//android.widget.TextView[@text='Docs']");
+    By docsScreen = By.xpath("android.widget.TextView[@text='DOCUMENTS");
     By plusBtn = By.id("mega.privacy.android.app:id/add_fab_button");
     By newTxtFileBtn = By.id("mega.privacy.android.app:id/new_txt_option");
     By txtFileName = By.id("mega.privacy.android.app:id/type_text");
     By createTxtFileBtn = By.xpath("//android.widget.Button[@text='CREATE']");
     By saveTxtFileBtn = By.id("mega.privacy.android.app:id/action_save");
-    By rubbishBin = By.id("mega.privacy.android.app:id/rubbish_bin_option");
+    By rubbishBinDocOptions = By.id("mega.privacy.android.app:id/rubbish_bin_option");
     By docOptionsMenu = By.id("mega.privacy.android.app:id/node_title_layout");
     By moveBtn = By.xpath("//android.widget.Button[@text='MOVE']");
     By leftBackBtn= By.xpath("//android.widget.ImageButton[@content-desc='Navigate up']");
@@ -47,6 +48,9 @@ public class MegaApp extends BasePage {
         waitForElementToAppear(docsCategory);
         click(docsCategory);
     }
+    public void verifyUserIsInDocsScreen(){
+        waitForElementToAppear(docsScreen);
+    }
 
     public void clickPlusBtn(){
         click(plusBtn);
@@ -62,24 +66,44 @@ public class MegaApp extends BasePage {
         verifyIfDocExists(fileName);
     }
 
-    public void deleteTxtFile(String fileName){
+    public void clickDocOptions(String fileName){
         click(docOptionsBtn(fileName));
         waitForElementToAppear(docOptionsMenu);
+    }
+
+    public void swipeUp(){
         verticalSwipeByPercentages(0.9, 0.1, 0.5);
-        click(rubbishBin);
+    }
+
+    public void clickRubbishBinFromDocOptions(){
+        click(rubbishBinDocOptions);
+    }
+
+    public void clickMove(){
         click(moveBtn);
+    }
+
+    public void navigateBack(){
         click(leftBackBtn);
+    }
+
+    public void clickLeftMenuPane(){
         click(leftMenuPane);
+    }
+
+    public void clickRubbishBinFromLeftMenu(){
         click(rubbishBinLeftMenu);
+    }
+
+    public void verifyDocExistsInRubbishBin(String fileName){
         verifyIfDocExists(fileName);
     }
 
-    public void restoreTxtFile(String fileName){
+    public void clickRubbishBinOptions(String fileName){
         click(rubbishOptionsMenu(fileName));
-        click(restoreOptionBtn);
-        click(leftBackBtn);
-        clickDocsCategory();
-        verifyIfDocExists(fileName);
     }
 
+    public void clickRestore(){
+        click(restoreOptionBtn);
+    }
 }

@@ -4,17 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97131c7c-0041-4437-a070-16df00bc69c1" name="Changes" comment="TestNG Framework done">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/mobiletests/MegaAppCucumberTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/MegaTxtSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/MegaTxt.feature" afterDir="false" />
+    <list default="true" id="97131c7c-0041-4437-a070-16df00bc69c1" name="Changes" comment="Cucumber Done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mobile/core/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mobile/core/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mobile/pages/MegaApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mobile/pages/MegaApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AppTestOLD.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/mobiletests/MegaAppTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mobiletests/MegaAppTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mobiletests/MegaAppCucumberTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mobiletests/MegaAppCucumberTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mobiletests/MegaAppTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/MegaTxtSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/MegaTxtSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/MegaTxt.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/MegaTxt.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,8 +149,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.MegaAppCucumberTests" />
-        <item itemvalue="TestNG.MegaTxtSteps" />
         <item itemvalue="Cucumber Java.Feature: MegaTxt" />
+        <item itemvalue="TestNG.MegaTxtSteps" />
         <item itemvalue="JUnit.MegaAppCucumberTests" />
         <item itemvalue="TestNG.MegaAppTests" />
       </list>
@@ -207,7 +204,8 @@
     <MESSAGE value="initial" />
     <MESSAGE value="setup framework" />
     <MESSAGE value="TestNG Framework done" />
-    <option name="LAST_COMMIT_MESSAGE" value="TestNG Framework done" />
+    <MESSAGE value="Cucumber Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cucumber Done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -218,5 +216,10 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/njg_mobile$MegaAppCucumberTests.ic" NAME="MegaAppCucumberTests Coverage Results" MODIFIED="1651723827530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>mobiletests.*</FILTER>
+    </SUITE>
   </component>
 </project>
