@@ -5,7 +5,7 @@ Feature: Create Delete Restore MEGA Txt File
     When User clicks Docs
     And User clicks Add Button
     And User creates a "<fileName>" file
-    Then "<fileName>" file is exists in Docs
+    Then "<fileName>" file exists in Docs
     Examples:
       |  fileName |
       |   a.txt   |
@@ -33,7 +33,7 @@ Feature: Create Delete Restore MEGA Txt File
     And User clicks Restore
     And User navigates Back
     And User clicks Docs
-    Then "<fileName>" file is exists in Docs
+    Then "<fileName>" file exists in Docs
     Examples:
       |  fileName |
       |   a.txt   |

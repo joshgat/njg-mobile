@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97131c7c-0041-4437-a070-16df00bc69c1" name="Changes" comment="Cucumber Done">
+    <list default="true" id="97131c7c-0041-4437-a070-16df00bc69c1" name="Changes" comment="Code clean up and added README.md">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mobile/core/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mobile/core/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mobile/core/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mobile/core/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mobile/pages/MegaApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mobile/pages/MegaApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/mobiletests/MegaAppCucumberTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mobiletests/MegaAppCucumberTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/mobiletests/MegaAppTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mobiletests/MegaAppCucumberTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/MegaAppCucumberTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/steps/MegaTxtSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/MegaTxtSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/MegaTxt.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/MegaTxt.feature" afterDir="false" />
     </list>
@@ -46,6 +46,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
@@ -84,12 +85,12 @@
       <module name="njg-mobile" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mobiletests.*" />
+          <option name="PATTERN" value="tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="mobiletests" />
-      <option name="MAIN_CLASS_NAME" value="mobiletests.MegaAppCucumberTests" />
+      <option name="MAIN_CLASS_NAME" value="tests.MegaAppCucumberTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -99,12 +100,12 @@
       <module name="njg-mobile" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mobiletests.*" />
+          <option name="PATTERN" value="tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="runner" />
-      <option name="MAIN_CLASS_NAME" value="mobiletests.MegaAppCucumberTests" />
+      <option name="MAIN_CLASS_NAME" value="tests.MegaAppCucumberTests" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -116,7 +117,7 @@
       <module name="njg-mobile" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mobiletests.*" />
+          <option name="PATTERN" value="tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -186,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651667797025</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Cucumber Done">
+      <created>1651742893902</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1651742893902</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -205,7 +213,8 @@
     <MESSAGE value="setup framework" />
     <MESSAGE value="TestNG Framework done" />
     <MESSAGE value="Cucumber Done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cucumber Done" />
+    <MESSAGE value="Code clean up and added README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Code clean up and added README.md" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

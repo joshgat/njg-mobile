@@ -41,7 +41,7 @@ public class MegaTxtSteps {
         megaApp.createTxtFile(fileName);
     }
 
-    @And("{string} file is exists in Docs")
+    @And("{string} file exists in Docs")
     public void fileExistsInDocs(String fileName) {
         megaApp.verifyFileCreated(fileName);
     }

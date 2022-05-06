@@ -1,5 +1,6 @@
 package mobile.core;
 
+import io.appium.java_client.MobileElement;
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.touch.WaitOptions;
@@ -16,7 +17,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import static java.time.Duration.ofMillis;
 
 public class BasePage   {
-    private static final int TIMEOUT = 10;
+    private static final int TIMEOUT = 15;
     private static final int POLLING = 100;
     protected AndroidDriver driver;
     private WebDriverWait wait;
@@ -47,15 +48,16 @@ public class BasePage   {
     public void click(By by) {
         waitVisibility(by).click();
     }
+
     //Write Text
     public void writeText(By by, String text) {
         waitVisibility(by).sendKeys(text);
     }
+
     //Read Text
     public String readText(By by) {
         return waitVisibility(by).getText();
     }
-
 
     //Vertical Swipe by percentages
     public void verticalSwipeByPercentages(double startPercentage, double endPercentage, double anchorPercentage) {
