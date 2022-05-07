@@ -15,8 +15,8 @@ Feature: Create Delete Restore MEGA Txt File
 
   Scenario Outline: Delete Txt File in MEGA App
     Given User is on Home Screen
-    And User clicks Docs
-    When User clicks Docs three dot option for "<fileName>"
+    When User clicks Docs
+    And User clicks Docs three dot option for "<fileName>"
     And User swipes up
     And User clicks Rubbish Bin from Options
     And User clicks Move
@@ -30,7 +30,7 @@ Feature: Create Delete Restore MEGA Txt File
 
   Scenario Outline: Restore Txt File in MEGA App
     Given User is on Home Screen
-    And User clicks Left Menu button
+    When User clicks Left Menu button
     And User clicks Rubbish Bin from Left Menu
     And User clicks Rubbish Bin three dot option for "<fileName>"
     And User clicks Restore

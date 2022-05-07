@@ -26,7 +26,7 @@ public class MegaTxtSteps {
         megaApp.verifyUserIsInHomeScreen();
     }
 
-    @And("User clicks Docs")
+    @When("User clicks Docs")
     public void userClicksDocs(){
         megaApp.clickDocsCategory();
     }
@@ -55,7 +55,7 @@ public class MegaTxtSteps {
     megaApp.saveTxtFile();
     }
 
-    @And("{string} file exists in Docs")
+    @Then("{string} file exists in Docs")
     public void fileExistsInDocs(String fileName) {
         megaApp.verifyFileCreated(fileName);
     }
@@ -90,7 +90,7 @@ public class MegaTxtSteps {
         megaApp.navigateBack();
     }
 
-    @And("User clicks Left Menu button")
+    @When("User clicks Left Menu button")
     public void userClicksLeftMenuButton() {
         megaApp.clickLeftMenuPane();
     }
