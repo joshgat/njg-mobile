@@ -36,9 +36,23 @@ public class MegaTxtSteps {
         megaApp.clickPlusBtn();
     }
 
-    @And("User creates a {string} file")
-    public void userCreatesAFile(String fileName) {
-        megaApp.createTxtFile(fileName);
+    @And("User clicks Create new text file")
+    public void userClicksCreateNewTxtFile() {
+        megaApp.clickCreateNewTxtFileFromOptions();
+    }
+    @And("User types {string} as file name")
+    public void userTypesFileName(String fileName) {
+        megaApp.setFileName(fileName);
+    }
+
+    @And("User clicks Create in Pop up")
+    public void clickCreateInPopUp() {
+        megaApp.clickCreateBtnFromPopUp();
+    }
+
+    @And("User saves document")
+    public void userSavesDocument() {
+    megaApp.saveTxtFile();
     }
 
     @And("{string} file exists in Docs")

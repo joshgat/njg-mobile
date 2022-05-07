@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97131c7c-0041-4437-a070-16df00bc69c1" name="Changes" comment="Code clean up and added README.md">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="97131c7c-0041-4437-a070-16df00bc69c1" name="Changes" comment="edited steps">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mobile/core/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mobile/core/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mobile/core/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mobile/core/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/mobiletests/MegaAppCucumberTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/MegaAppCucumberTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mobile/pages/MegaApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mobile/pages/MegaApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/steps/MegaTxtSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/MegaTxtSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/MegaTxt.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/MegaTxt.feature" afterDir="false" />
     </list>
@@ -194,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651742893902</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Code clean up and added README.md">
+      <created>1651800425862</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1651800425862</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -214,7 +218,8 @@
     <MESSAGE value="TestNG Framework done" />
     <MESSAGE value="Cucumber Done" />
     <MESSAGE value="Code clean up and added README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Code clean up and added README.md" />
+    <MESSAGE value="edited steps" />
+    <option name="LAST_COMMIT_MESSAGE" value="edited steps" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

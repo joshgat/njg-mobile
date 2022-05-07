@@ -4,7 +4,10 @@ Feature: Create Delete Restore MEGA Txt File
     Given User is on Home Screen
     When User clicks Docs
     And User clicks Add Button
-    And User creates a "<fileName>" file
+    And User clicks Create new text file
+    And User types "<fileName>" as file name
+    And User clicks Create in Pop up
+    And User saves document
     Then "<fileName>" file exists in Docs
     Examples:
       |  fileName |
