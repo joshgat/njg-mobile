@@ -1,7 +1,7 @@
 # MEGA App Testing
 
 How to run
-1. Setup Appium for your device
+1. Setup Appium and connect Android device
 2. Edit capabilities in src> main > java > mobile > core > BaseTest.java if needed
 3. Go to src > test > java> tests
 4. Run "MegaAppCucumberTests"
